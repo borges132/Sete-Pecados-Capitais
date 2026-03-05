@@ -4,12 +4,12 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+ 
 body{
-    background: 
+    background:
         linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
         url("../Imagens/seven-deadly-sins-background-eqxied2128qkp8l8.jpg");
-
+ 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body{
     margin: 0;
     color: white;
 }
-
+ 
 header{
     position: fixed;
     width: 100%;
@@ -28,15 +28,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+ 
     background: rgba(0, 0, 0, 0.1); /* leve transparência */
     backdrop-filter: blur(10px);          /* efeito fosco */
     -webkit-backdrop-filter: blur(10px);  /* suporte Safari */
-
+ 
     border-bottom: 1px solid rgba(255,255,255,0.2);
     z-index: 1000;
 }
-
+ 
 /* Links */
 header a,
 .navbar li a{
@@ -44,81 +44,67 @@ header a,
     text-decoration: none;
     transition: 0.3s;
 }
-
+ 
 .navbar li a:hover,
 .h-right a:hover{
     color: #f5c518;
 }
-
+ 
 /* Espaço para não sobrepor conteúdo */
 body{
     padding-top: 100px;
 }
-
-
-/* header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 20px 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #000;
-} */
-
+ 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
     color: rgb(245, 167, 0);
     text-decoration: none;
 }
-
+ 
 .navbar {
     display: flex;
     list-style: none;
     gap: 40px;
 }
-
+ 
 .navbar li a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
     transition: 0.3s;
 }
-
+ 
 .navbar li a:hover {
     color: gold;
 }
-
+ 
 .h-right {
     display: flex;
     align-items: center;
     gap: 15px;
 }
-
+ 
 .h-right a {
     color: white;
     text-decoration: none;
     transition: 0.3s;
 }
-
+ 
 .h-right a:hover {
     color: gold;
 }
-
+ 
 #menu-icon {
     font-size: 25px;
     cursor: pointer;
     display: none;
 }
-
+ 
 section{
     padding: 70px 8% 60px;
 }
-
+ 
 .home{
     position: relative;
     height: 100vh;
@@ -127,10 +113,10 @@ section{
     background-size: cover;
     background-position: bottom center;
     display: flex;
-    align-items: center; 
-    justify-content: flex-start; 
+    align-items: center;
+    justify-content: flex-start;
 }
-
+ 
 .home-text h2{
     font-size: 36px;
     font-weight: 600;
@@ -139,7 +125,7 @@ section{
     letter-spacing: 6px;
     color: var(--cor-principal);
 }
-
+ 
 .home-text p{
     font-size: var(--texto-font);
     font-weight: 500;
@@ -147,7 +133,7 @@ section{
     color: var(--cor-texto);
     margin-bottom: 30px;
 }
-
+ 
 .personagens {
     display: flex;              /* deixa horizontal */
     justify-content: center;    /* centraliza na tela */
@@ -155,31 +141,31 @@ section{
     gap: 30px;                  /* espaço entre imagens */
     padding: 100px 0;
 }
-
-.personagen-content{
+ 
+.personagens-content{
     display: flex;              /* deixa horizontal */
     justify-content: center;    /* centraliza na tela */
     align-items: center;        /* alinha verticalmente */
     gap: 30px;                  /* espaço entre imagens */
     padding: 100px 0;
 }
-
+ 
 .card {
     text-align: center;
 }
-
+ 
 .card img {
     width: 200px;
     height: 250px;
     object-fit: cover;
     border-radius: 12px; /* bordas arredondadas */
 }
-
+ 
 .card p {
     margin-top: 10px;
     font-weight: bold;
 }
-
+ 
 .video-container {
    
     display: flex;
@@ -189,7 +175,7 @@ section{
 iframe {
     border-radius: 10px;
 }
-
+ 
 #trailer {
     max-width: 900px;
     margin: 40px auto;
@@ -253,4 +239,3 @@ iframe {
     transform: scale(1.02);
     transition: 0.3s ease-in-out;
 }
- 
